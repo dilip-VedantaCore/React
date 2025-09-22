@@ -1,7 +1,6 @@
-import React from 'react'
-
 export default function Sidebar() {
-  return (<>
+  return (
+  <>
   <p>This is a Sidebar </p>
   
   
