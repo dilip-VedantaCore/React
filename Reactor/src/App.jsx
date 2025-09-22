@@ -1,5 +1,6 @@
 // import React, { useEffect, useMemo, useRef, useState } from "react";
-import Counter from "./Sidebar/counter";
+//import Counter from "./Sidebar/counter";
+import Practice from "./Sidebar/practice";
 // // FoodTracker — single-file React component
 // // - Uses Tailwind classes for styling (assumes Tailwind configured)
 // // - Persists data to localStorage
@@ -351,12 +352,17 @@ import Counter from "./Sidebar/counter";
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Multiple Counters</h1>
-      <Counter title="Apples" />
-      <Counter title="Oranges" />
-      <Counter title="Bananas" />
-    </div>
+
+  //   <div style={{ padding: 20 }}>
+  //     <h1>Multiple Counters</h1>
+  //     <Counter title="Apples" />
+  //     <Counter title="Oranges" />
+  //     <Counter title="Bananas" />
+  //   </div>
+  <>
+  <Practice />
+  
+  </>
   );
 }
 export default App;
